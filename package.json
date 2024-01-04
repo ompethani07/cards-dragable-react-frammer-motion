@@ -1,17 +1,20 @@
 {
-    "homepage": "https://github.com/Kingom777/dragcards.git",
+    "homepage": "https://Kingom777.github.io/cards-dragable-react-frammer-motion",
     "name": "docs",
     "private": true,
     "version": "0.0.0",
     "type": "module",
     "scripts": {
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "gh-pages -d dist",
         "dev": "vite",
         "build": "vite build",
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
+    "engines": {
+        "node": "16.x"
+      },
     "dependencies": {
         "framer-motion": "^10.16.16",
         "git": "^0.1.5",
