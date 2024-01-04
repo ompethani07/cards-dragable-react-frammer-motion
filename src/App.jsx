@@ -1,8 +1,8 @@
 import React from 'react';
-import Background from './components/background'
-import Foreground from './components/foreground';
+import Foreground from "./components/Foreground";
 import "./index.css"
 import "./app.css"
+import Background from "./components/Background"
 const App = () => {
   return (
     <div className='relative text-white w-full h-screen bg-slate-800'>

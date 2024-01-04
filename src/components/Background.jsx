@@ -1,5 +1,5 @@
 import React from 'react'
-const background = () => {
+const Background = () => {
     return (
         <>
             <div className='w-full h-screen fixed z-[2]'>
@@ -14,4 +14,4 @@ const background = () => {
     )
 }
 
-export default background
+export default Background
